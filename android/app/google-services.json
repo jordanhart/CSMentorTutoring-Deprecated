@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "336612283255",
+    "firebase_url": "https://cstutoring-ace81.firebaseio.com",
+    "project_id": "cstutoring-ace81",
+    "storage_bucket": "cstutoring-ace81.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:336612283255:android:042171ae15c14194",
+        "android_client_info": {
+          "package_name": "com.cstutoring"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "336612283255-32708d2358nj17e83ml6gqkc8bmo5spq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cstutoring",
+            "certificate_hash": "79128040D9E74F0AB835368B7A87D74755F8833D"
+          }
+        },
+        {
+          "client_id": "336612283255-ng661a6b4t68csfcsdm1bm2irobg434d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB52JgxIF2Rcz2otP_mrdSeEf2T45RKJyY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "336612283255-ng661a6b4t68csfcsdm1bm2irobg434d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
