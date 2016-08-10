@@ -12,7 +12,7 @@ import {
   View,
   TouchableOpacity,
 } from 'react-native';
-var Firebase = require("firebase"); //downgrade to firebase 2 and this might work, using as constructor later
+var firebase = require("firebase"); //downgrade to firebase 2 and this might work, using as constructor later
 
 
 import {GoogleSignin, GoogleSigninButton} from 'react-native-google-signin';
@@ -24,7 +24,7 @@ const firebaseConfig = {
     databaseURL: "https://cs-tutoring-try-2.firebaseio.com",
     storageBucket: "cs-tutoring-try-2.appspot.com",
 };
-const firebaseApp = Firebase.initializeApp(firebaseConfig);
+const firebaseApp = firebase.initializeApp(firebaseConfig);
 
 
 class CSMentorTutoring extends Component { //changed class name here from GoogleSigninSampleApp
@@ -59,6 +59,7 @@ class CSMentorTutoring extends Component { //changed class name here from Google
               <Text>Log out</Text>
             </View>
           </TouchableOpacity>
+//Just use the build in navigator for switching to different file for this screen / navigating, react-native. 
         </View>
       );
     }
@@ -87,13 +88,13 @@ class CSMentorTutoring extends Component { //changed class name here from Google
     .then((user) => {
       console.log(user);
       this.setState({user: user});
-// Authenticate with using an existing OAuth 2.0 access token
-//var ref = new Firebase("https://cstutoring-ace81.firebaseio.com");
-//ref.authWithOAuthToken("google", GoogleSignin.getAccessToken()); //added to send auth token to firebase to register as user with server. on ios, user.accessToken is equivalent to the user.getAccessToken. Errors here for now for some reason
+// Authenticate with using an existing OAuth 2.0 access token firebase 2
+//var ref = new firebase("cs-tutoring-try-2.firebaseio.com");
+//ref.authWithOAuthToken("google", this.state.user.serverAuthCode); //added to send auth token to firebase to register as user with server. on ios, user.accessToken is equivalent to the user.getAccessToken. Errors here for now for some reason
 
 //Firebase 3
 //terrible idea way of custome/non gmail
-/* var uid = this.state.user.email;
+/*var uid = this.state.user.email;
 var customToken = firebase.auth().createCustomToken(uid);
 firebase.auth().signInWithCustomToken(customToken).catch(function(error) {
   // Handle Errors here.
@@ -102,6 +103,17 @@ firebase.auth().signInWithCustomToken(customToken).catch(function(error) {
   // ...
 });
 */
+
+//even worst way to do google auth firebase 3. Temporary
+firebase.auth().createUserWithEmailAndPassword(this.state.user.email, "password").catch(function(error) {
+  // Handle Errors here.
+  var errorCode = error.code;
+  var errorMessage = error.message;
+  // ...
+});
+
+
+
 
 
     })
