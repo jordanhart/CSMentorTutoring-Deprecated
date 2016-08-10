@@ -1,4 +1,4 @@
-package com.cstutoring;
+package com.csmentortutoring;
 
 import android.app.Application;
 import android.util.Log;
@@ -9,7 +9,6 @@ import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.shell.MainReactPackage;
 import co.apptailor.googlesignin.RNGoogleSigninPackage;  // <--- import
-
 
 import java.util.Arrays;
 import java.util.List;

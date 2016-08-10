@@ -1,4 +1,4 @@
-rootProject.name = 'CSTutoring'
+rootProject.name = 'CSMentorTutoring'
 
 include ':app'
 include ':react-native-google-signin'

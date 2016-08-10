@@ -1,35 +1,35 @@
 {
   "project_info": {
-    "project_number": "336612283255",
-    "firebase_url": "https://cstutoring-ace81.firebaseio.com",
-    "project_id": "cstutoring-ace81",
-    "storage_bucket": "cstutoring-ace81.appspot.com"
+    "project_number": "1032258821549",
+    "firebase_url": "https://cs-tutoring-try-2.firebaseio.com",
+    "project_id": "cs-tutoring-try-2",
+    "storage_bucket": "cs-tutoring-try-2.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:336612283255:android:042171ae15c14194",
+        "mobilesdk_app_id": "1:1032258821549:android:145ecd03db55267f",
         "android_client_info": {
-          "package_name": "com.cstutoring"
+          "package_name": "com.cspeertutoring"
         }
       },
       "oauth_client": [
         {
-          "client_id": "336612283255-32708d2358nj17e83ml6gqkc8bmo5spq.apps.googleusercontent.com",
+          "client_id": "1032258821549-h0sk6i4ociea1k7l0tgkj8f17vnoduhi.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.cstutoring",
+            "package_name": "com.cspeertutoring",
             "certificate_hash": "79128040D9E74F0AB835368B7A87D74755F8833D"
           }
         },
         {
-          "client_id": "336612283255-ng661a6b4t68csfcsdm1bm2irobg434d.apps.googleusercontent.com",
+          "client_id": "1032258821549-846pfsdj3nortoggko7q3ls77ujl91td.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyB52JgxIF2Rcz2otP_mrdSeEf2T45RKJyY"
+          "current_key": "AIzaSyBUmkdBESuGAULWyuIutMR5-Ux1fbF-vy8"
         }
       ],
       "services": {
@@ -40,7 +40,51 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "336612283255-ng661a6b4t68csfcsdm1bm2irobg434d.apps.googleusercontent.com",
+              "client_id": "1032258821549-846pfsdj3nortoggko7q3ls77ujl91td.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1032258821549:android:87c6cafec3c8902d",
+        "android_client_info": {
+          "package_name": "com.csmentortutoring"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1032258821549-8l51mqoa3ptjsm16bpju8l2uegfcotpc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.csmentortutoring",
+            "certificate_hash": "79128040D9E74F0AB835368B7A87D74755F8833D"
+          }
+        },
+        {
+          "client_id": "1032258821549-846pfsdj3nortoggko7q3ls77ujl91td.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUmkdBESuGAULWyuIutMR5-Ux1fbF-vy8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1032258821549-846pfsdj3nortoggko7q3ls77ujl91td.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
